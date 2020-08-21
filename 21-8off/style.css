@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: lightblue;
+}
+/*CSS NAVRBA*/
+ul.menu{
+    display: flex;
+    list-style-type: none ;
+    background-color: rgb(49, 172, 212);
+    padding: 0;
+}
+ul.menu li{
+    min-width: 150px;
+    border-right: 1px solid oldlace;
+    text-align: center;
+}
+ul.menu li a{
+    display: block;
+    padding: 20px 10px;
+}
+ul.menu li a:hover{
+    background-color: lightgreen;
+}
+/*CSS section*/
+section.container{
+    display: flex;
+}
+div.container-menu{
+    width: 20%;
+}
+div.container-products{
+    width: 80%;
+}
+ul.container-menu-ul{
+    display: list-item !important;
+    
+}
+ul.container-menu-ul li{
+    text-align: left;
+    border-right: none;
+}
+ul.container-menu-ul li a{
+    background: linear-gradient(rgb(39, 101, 226), #0FF);
+
+}
+ul.container-menu-ul li a:hover{
+    background: lightgreen;
+}
+/*CSS Container-products*/
+div.container-products{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.book{
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+}
+div.book > img{
+    width: 100%;
+    transition: transform 1s ease;
+}
+div.book > img:hover{
+    transform: rotate(360deg);
+}
+/*CSS Header intro*/
+header.intro{
+    display: flex;
+    align-items: center;
+}
+div.intro-img-10 {
+    width: 10%;
+}
+div.intro-img-10 >img{
+    width: 100%;
+}
+.intro-namepage-30{
+    width: 30%;
+}
+div.intro-search {
+    width: 30%;
+    text-align: right;
+}
+div.intro-ads{
+    width: 30%;
+    display: flex;
+}
+div.intro-ads > div{
+    width: 33.33%;
+    padding: 40px 30px;
+    border: 1px dashed black;
+}
